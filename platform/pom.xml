@@ -60,6 +60,8 @@
     <module>../skia/platform</module>
     <module>../cpu_features/platform</module>
     <module>../systems/platform</module>
+    <module>../zlib/platform</module>
+    <module>../cuspatial/platform</module>
   </modules>
 
   <dependencies>
@@ -293,6 +295,16 @@
       <groupId>org.bytedeco</groupId>
       <artifactId>systems-platform</artifactId>
       <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bytedeco</groupId>
+      <artifactId>zlib-platform</artifactId>
+      <version>1.2.11-${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bytedeco</groupId>
+      <artifactId>cuspatial-platform</artifactId>
+      <version>0.10-${project.version}</version>
     </dependency>
   </dependencies>
 
